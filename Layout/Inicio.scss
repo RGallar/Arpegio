@@ -1,0 +1,17 @@
+.navbar-brand{
+    overflow-x: hidden;
+    img{
+        width: 20%;
+        height: 70px;
+    }
+}
+.navbar-toggler:hover + #navbarNavAltMarkup{
+    display: block;
+}
+@media (max-width:800px){
+    .navbar-brand{
+        img{
+            width: 100%; 
+            }
+    }
+}

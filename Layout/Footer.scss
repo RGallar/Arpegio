@@ -1,0 +1,26 @@
+footer{
+    text-align: center;
+    padding: 9px;
+    background-color: #c1c1c1;
+    h1{
+        color: rgba(0, 0, 0, 0.589);
+        font-size: x-large;
+    }
+    p{
+        color: rgba(0, 0, 0, 0.432);
+    }
+    ul{
+        li{
+            display: block;
+            img{
+                padding: 5px;
+                width: 3%;
+            }
+            a{
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.432);
+                padding: 5px;
+            }
+        }
+    }
+}

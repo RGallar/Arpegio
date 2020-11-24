@@ -1,0 +1,89 @@
+.titulos {
+  display: inline-flex;
+  margin: 0;
+  width: 100%;
+  padding: 10PX;
+  height: 70px;
+  background-color: #f8f9fa;
+  border: solid 1px lightgray;
+  font-weight: bold; }
+  .titulos h2 {
+    padding: 9px;
+    margin: 0;
+    font-size: larger; }
+
+#Cursos {
+  display: none; }
+
+.btn-group {
+  display: none; }
+
+.cuerpo {
+  height: 547px; }
+  .cuerpo .centro {
+    margin: 0 50px;
+    position: absolute; }
+    .cuerpo .centro img {
+      width: 100%;
+      height: 470px; }
+
+.clases {
+  margin: 0 49px;
+  height: 68px;
+  display: block;
+  padding: 6px; }
+  .clases .dropdown {
+    width: 12%;
+    position: relative;
+    display: inline-block; }
+    .clases .dropdown .dropbtn {
+      border: 0;
+      background-color: gainsboro;
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+      text-align: left; }
+  .clases .dropdown-content {
+    transform: translate(77px, -54px);
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+    .clases .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block; }
+
+.planes {
+  height: 116px; }
+  .planes .dropdown {
+    margin: 9px;
+    width: 11%; }
+    .planes .dropdown .dropbtn {
+      background-color: gainsboro;
+      height: 47px;
+      width: 100%; }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+@media (max-width: 800px) {
+  .cuerpo {
+    display: none; }
+
+  .btn-group {
+    display: block; }
+
+  #Cursos {
+    display: block; } }
+
+/*# sourceMappingURL=cursos.css.map */
